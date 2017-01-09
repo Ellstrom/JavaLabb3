@@ -10,5 +10,15 @@ package javalabb3;
  * @author Jonathan
  */
 public class DAO implements DAOInterface{
-    
+
+    @Override
+    public Friend getFriend() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public Message getMessage() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
 }

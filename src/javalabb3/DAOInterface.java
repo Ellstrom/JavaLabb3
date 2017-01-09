@@ -10,5 +10,8 @@ package javalabb3;
  * @author Jonathan
  */
 public interface DAOInterface {
-    
+    //findactorid
+    public Friend getFriend();
+    public Message getMessage(); 
+
 }
