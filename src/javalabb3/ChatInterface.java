@@ -5,10 +5,15 @@
  */
 package javalabb3;
 
+import java.util.List;
+
 /**
  *
  * @author Jonathan
  */
 public interface ChatInterface {
-    
+
+    public void  addMessage( Message msg );
+            
+    public List< Message > getMessages();
 }

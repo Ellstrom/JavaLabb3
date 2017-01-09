@@ -26,7 +26,7 @@ public class MainWindow extends JFrame {
         /**
          * Gör en JFrame, lägger till panelen från FriendListPanel till EAST och panelen från ChatTextPanel till CENTER.
          */
-        public MainWindow(){
+    public MainWindow(){
     
         myFrame = new JFrame();      
         myFrame.setTitle("Hello world");

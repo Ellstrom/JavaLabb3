@@ -12,6 +12,22 @@ import java.util. *;
  * @author Jonathan
  */
 public class Friend  {
+    
+    // unique id
+    public String getNickname(){
+        return null;
+    }  
+    
+    public String getFullName(){
+        return null;
+    }
+    public String getLastSeenIP(){
+        return null;
+    }
+    public Chat getChat(){
+        return null;
+    }
+
     String fullname;
     String lastip;
     String image;  

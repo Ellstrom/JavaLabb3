@@ -11,4 +11,16 @@ package javalabb3;
  */
 public class Message {
     
+    //Suitable constructors
+    public Message(){
+        
+    }
+    
+    public Friend getAuthor() {
+        return null;
+    }
+            
+    public String getMessage(){
+        return null; 
+    }
 }
