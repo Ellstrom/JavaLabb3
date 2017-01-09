@@ -20,7 +20,6 @@ class JavaLabb3
      * Skapar ett objekt av klassen MainWindow vilket gör så att rutan kommer upp.
      */
     public static void main(String[] args) {
-        System.out.println("hello");
         MainWindow myFrame = new MainWindow();
     
     }
