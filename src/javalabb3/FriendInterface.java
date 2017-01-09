@@ -10,5 +10,8 @@ package javalabb3;
  * @author Jonathan
  */
 public interface FriendInterface {
-    
+    public String getNickname();  // unique id
+    public String getFullName();
+    public String getLastSeenIP();
+    public Chat getChat();
 }

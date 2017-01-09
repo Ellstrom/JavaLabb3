@@ -13,22 +13,27 @@ import java.util. *;
  */
 public class Friend implements FriendInterface{
     
-    // unique id
-    public String getNickname(){
-        return null;
-    }  
-    
-    public String getFullName(){
-        return null;
-    }
-    public String getLastSeenIP(){
-        return null;
-    }
-    public Chat getChat(){
-        return null;
-    }
-
     String fullname;
     String lastip;
     String image;  
+
+    @Override
+    public String getNickname() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public String getFullName() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public String getLastSeenIP() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public Chat getChat() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }
