@@ -9,6 +9,6 @@ package javalabb3;
  *
  * @author Jonathan
  */
-public class DAO {
+public class DAO implements DAOInterface{
     
 }

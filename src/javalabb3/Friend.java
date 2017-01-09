@@ -11,7 +11,7 @@ import java.util. *;
  *
  * @author Jonathan
  */
-public class Friend  {
+public class Friend implements FriendInterface{
     
     // unique id
     public String getNickname(){
